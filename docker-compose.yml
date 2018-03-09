@@ -1,0 +1,10 @@
+version: '3'
+services:
+  sandbox:
+    image: deardooley/getsandbox:latest
+    expose:
+      - "8080"
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./:/sandbox

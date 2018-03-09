@@ -1,4 +1,4 @@
-Sandbox-ES6
+Sandbox-Webpack
 ====================
 
 Run [Sandbox](http://www.getsandbox.com) locally, writing your code in ES6+. Woot!

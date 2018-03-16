@@ -1,7 +1,7 @@
 var path = require('path');
 var webpack = require('webpack');
 module.exports = {
-    entry: './src/main.js',
+    entry: ['./src/main.js'],
     output: {
         path: path.resolve(__dirname),
         filename: 'main.js'
@@ -13,7 +13,7 @@ module.exports = {
                 use: {
                   loader: 'babel-loader',
                   query: {
-                      presets: ['es2015']
+                      presets: ['es2015', 'stage-0']
                   }
                 }
             }

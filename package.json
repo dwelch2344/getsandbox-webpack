@@ -5,7 +5,8 @@
   "main": "main.js",
   "scripts": {
     "build": "webpack",
-    "watch": "webpack --watch",
+    "sandbox": "docker-compose up",
+    "watch": "webpack --watch --progress --colors",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "concurrently --kill-others 'docker-compose up' 'webpack --watch --progress --colors'"
   },

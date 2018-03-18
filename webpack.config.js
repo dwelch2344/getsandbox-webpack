@@ -22,5 +22,8 @@ module.exports = {
     stats: {
         colors: true
     },
+    optimization: {
+      minimize: false
+    },
     devtool: 'source-map'
 };
